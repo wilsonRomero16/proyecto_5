@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+     padding: 0;
+     padding: 2pc;
+     background-image: url(https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     
+ 
+ }
+ *{
+    transition: all ease 0.9s;
+ }
+ ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+.borderRa {
+    border-radius: 10px;
+}
+.number {
+    position: relative;
+    height: 14pc;
+    width: 100%;
+    background: white;
+    color: black;
+    font-family: fantasy;
+    opacity: 0.09;
+    text-align: center;
+    font-size: 06pc;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+.containerInfo {
+    padding: 0 1pc;
+    font-family: fantasy;
+    font-size: 1pc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.containerInfo h5 {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1pc;
+}
+ 
+ header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(63, 66, 66);
+     padding: 0 20px;
+     color: white;
+ }
+ .SlyderContainer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Slyder1 {
+
+    display: grid;
+    gap: 25px;
+    height: 28pc;
+    background-color: white;
+    overflow-y: scroll;
+    border-radius: 15px;
+    padding: 1pc;
+}
+
+
+.card1 {
+    width: 19pc;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.card1:hover {
+    background-color: grey;
+    color: white;
+}
+
+.card1:hover .number {
+    opacity: 1;
+    font-size: 8pc;
+}
+
+.card1:hover .imagen1 {
+    width: 18pc;
+    top: -9px;
+    left: 8%;
+}
+.imagen1 {
+    width: 13pc;
+    position: absolute;
+    top: 65px;
+    left: 18%;
+}
